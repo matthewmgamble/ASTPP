@@ -144,6 +144,8 @@ For DID edit on DID number
 **/
 			array(gettext("DID"), "80", "number", "", "", "","EDITABLE","true","center"),
 			array(gettext("Country"), "60", "country_id", "country", "countrycode", "get_field_name","","true","center"),
+			array(gettext("Province"), "60", "province", "", "", "","","true","center"),
+			array(gettext("City"), "60", "city", "", "", "","","true","center"),
 			array(gettext("Account"), "95", "accountid", "first_name,last_name,number", "accounts", "get_field_name_coma_new"),
 			array("Per Minute <br>Cost($currency)", "85", "cost", "cost", "cost", "convert_to_currency","","true","right"),
 			array(gettext("Initial <br>Increment"), "80", "init_inc", "", "", "","","true","center"),
